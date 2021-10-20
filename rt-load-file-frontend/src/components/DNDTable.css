@@ -1,0 +1,44 @@
+table, th, td {
+    border: 1px solid black;
+ }
+
+table {
+  width: 80%;
+  margin: 0 auto;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table td {
+  cursor: move;
+  font-size: calc(10px + 1vmin);
+}
+
+table th {
+  padding: 0.25em;
+}
+
+.total-amount {
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+}
+
+.tableFixHead {
+  overflow-y: auto;
+  height: 80vh;
+}
+
+.tableFixHead thead th {
+  position: sticky;
+  top: 0;
+}
+
+.dnd-instr{
+  height: 5vh;
+  text-align: left;
+  font-size: 0.5em;
+  font-style: italic;
+}
